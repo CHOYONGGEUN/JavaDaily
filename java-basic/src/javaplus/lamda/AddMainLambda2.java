@@ -8,5 +8,6 @@ public class AddMainLambda2 {
     }
     public static IAdd makeFunction(){
         return (x, y) -> x+y;
+        
     }
 }
