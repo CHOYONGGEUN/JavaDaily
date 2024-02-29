@@ -29,9 +29,10 @@ public class ThreadProperties_3_3 {
 
         //#3. 3초후 amin Thread 정료
         try {
-            Thread.sleep(3000);
+            Thread.sleep(3200);
         } catch (InterruptedException e) {
-            System.out.println("main Thread 종료");
         }
+        System.out.println("main Thread 종료");
+
     }
 }
