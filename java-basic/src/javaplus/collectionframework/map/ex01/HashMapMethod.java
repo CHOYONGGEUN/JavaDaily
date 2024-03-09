@@ -25,6 +25,7 @@ public class HashMapMethod {
         hmap2.replace(4, "라라라"); //동작 안 함
         System.out.println(hmap2);
 
+
         //#4. replace(K key, V old Value, V new Value)
         hmap2.replace(1, "가가가", "나나나");
         hmap2.replace(2, "다다다","라라라"); //동작 안 함
